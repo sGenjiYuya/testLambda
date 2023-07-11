@@ -6,5 +6,5 @@ phases:
       - sam build -t SAM-test.yaml
       - echo "--------sam build finished----------"
       - echo "-------sam deploy statring...--------"
-      - sam deploy --stack-name LambdaDeployStack --region ap-northeast-1 -t SAM-test.yaml --no-fail-on-empty-changeset --s3-bucket casefolder-jyuyafk
+      - sam deploy --stack-name LambdaDeployStack --region ap-northeast-1 -t SAM-test.yaml --no-fail-on-empty-changeset --s3-bucket casefolder-jyuyafk --capabilities CAPABILITY_IAM
       - echo "--------sam deploy finished----------"

@@ -8,5 +8,6 @@ def lambda_handler(event, context):
     print("value2 = " + event['key2'])
     print("value3 = " + event['key3'])
     print("Hello, World.")
+    print("This is new version.")
     return event['key1']  # Echo back the first key value
     #raise Exception('Something went wrong')

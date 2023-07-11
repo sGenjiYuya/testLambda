@@ -4,7 +4,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      Runtime: python3.9
+      Runtime: python3.8
       CodeUri: src/
       AutoPublishAlias: live
       DeploymentPreference: 

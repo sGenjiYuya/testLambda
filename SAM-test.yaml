@@ -9,4 +9,4 @@ Resources:
       AutoPublishAlias: live
       FunctionName: LambdaDeployStack-MyLambdaFunction
       DeploymentPreference: 
-        Type: Canary10Percent10Minutes
+        Type: AllAtOnce

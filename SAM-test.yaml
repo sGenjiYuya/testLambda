@@ -7,5 +7,6 @@ Resources:
       Runtime: python3.9
       CodeUri: src/
       AutoPublishAlias: live
+      FunctionName: LambdaDeployStack-MyLambdaFunction
       DeploymentPreference: 
         Type: Canary10Percent10Minutes
